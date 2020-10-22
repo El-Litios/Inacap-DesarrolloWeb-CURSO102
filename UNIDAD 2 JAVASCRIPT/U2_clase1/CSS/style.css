@@ -1,0 +1,57 @@
+.nav-wrapper{
+    background-color: black;
+    padding-left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.menu a span{
+    transition: transform 0.2s ease-out;
+}
+
+.menu a span:first-child{
+    display: inline-block;
+}
+
+.menu a span:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+}
+
+.menu i{
+    font-size: 30px;
+}
+
+.menu a:hover span:first-child{
+    transform: translateY(100%);
+}
+
+.menu a:hover span:last-child, .menu[data-animation] a:hover span:last-child{
+    transform: none;
+}
+
+.sidenav{
+    background-color: grey;
+}
+
+.menu a:hover{
+    background-color: grey;
+}

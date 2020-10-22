@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <!--Iconos de Materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fuentes de Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <style>
+        .material-icons {
+            color: black;
+        }
+        
+        .card-panel{
+            background-color: #80deea;
+            border-radius: 4PX;
+        }
+        
+        #row1{
+            padding-top: 30px;
+        }
+        
+        h5{
+            font-family: 'Anton', sans-serif;
+        }
+        
+        #t1{
+            font-weight: 600;
+            line-height: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 30px; 
+            text-align: center;
+        }
+        
+        #t2{
+            font-weight: 600;
+            line-height: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-size: 30px; 
+            text-align: center;
+        }
+
+        h3{
+            font-size: 20px;
+            color: #292929;
+            font-weight: bold;
+            line-height: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        h2{
+            font-weight: 600;
+            line-height: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h5{
+            color: #80deea;
+        }
+    </style>
+    <title>HILLTOP</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="nav-extended">
+        <div class="nav-wrapper" style="background-color: #80deea;">
+            <a href="#" class="brand-logo" style="color: black;">
+                <i class="material-icons">ac_unit</i>
+                HILLTOP
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html" style="color: black;">Home</a></li>
+                <li><a href="badges.html" style="color: black;">Service</a></li>
+                <li><a href="collapsible.html" style="color: black;">Projects</a></li>
+                <li><a href="collapsible.html" style="color: black;">Pricing</a></li>
+                <li><a href="collapsible.html" style="color: black;">Contact</a></li>>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html" style="color: black;">Home</a></li>
+        <li><a href="badges.html" style="color: black;">Service</a></li>
+        <li><a href="collapsible.html" style="color: black;">Projects</a></li>
+        <li><a href="collapsible.html" style="color: black;">Pricing</a></li>
+        <li><a href="collapsible.html" style="color: black;">Contact</a></li>
+    </ul>
+    
+    <!--Slider-->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="Imagenes/edificios-ciudad-de-noche_3840x1633_xtrafondos.com.jpg">
+                <div class="caption right-align">
+                    <h3>Best Properties</h3>
+                    <h5 class="light grey-text text-lighten-3">Oportunities don't happen. Your create them!.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="Imagenes/cybercity.png">
+                <div class="caption left-align">
+                    <h3>Gated Vilas</h3>
+                    <h5 class="light grey-text text-lighten-3">It is better to fail in originality than to succeed!</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <!--Grid 1-->
+    <div class="row center" id="row1">
+        <div class="col l2 m6 s12 offset-l2">
+            <div class="card-panel">
+                <i class="medium material-icons">home</i>
+                <hr>
+                <h5>Nuevos Proyectos</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo consequuntur amet alias?</p>
+            </div>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">
+            <div class="card-panel">
+                <i class="medium material-icons">move_to_inbox</i>
+                <hr>
+                <h5>Movimientos</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo consequuntur amet alias?</p>
+            </div>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">
+            <div class="card-panel">
+                <i class="medium material-icons">local_grocery_store</i>
+                <hr>
+                <h5>Comercio</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo consequuntur amet alias?</p>
+            </div>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">                    
+            <div class="card-panel">
+                <i class="medium material-icons">star</i>
+                <hr>
+                <h5>Mejores Proyectos</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo consequuntur amet alias?</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--Titulo1-->
+    <div style="padding-top: 50px;">
+        <h2 id="t1">TRENDING PROJECTS</h2>
+        <p style="text-align: center;">Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+            <br>
+            ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.
+        </p>
+    </div>
+    
+    <!--Grid 2-->
+    <div class="row" id="row1">
+        <div class="col l2 m6 s12 offset-l2">
+            <img src="Imagenes/A1.jpg" style="display: block; max-width: 100%; height: auto;">
+            <h3>Apartments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">
+            <img src="Imagenes/A2.jpg" style="display: block; max-width: 100%; height: auto;">
+            <h3>luxury Villas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">
+            <img src="Imagenes/A3.jpg" style="display: block; max-width: 100%; height: auto;">
+            <h3>Gated Projects</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+        </div>
+        <div class="col l2 m6 s12 offset-l0.5">                    
+            <img src="Imagenes/A4.jpg" style="display: block; max-width: 100%; height: auto;">
+            <h3>Apartments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+        </div>
+    </div>
+    
+    <!--Grid 3-->
+    <div style="background-color: #80deea; margin-top: 100px; padding-bottom: 50px;">
+        <div style="padding-top: 50px;">
+            <h2 id="t1">RECENT PROJECTS</h2>
+            <p style="text-align: center;">Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+                <br>
+                ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.
+            </p>
+        </div>
+        <div class="row" style="padding-top: 20px;">
+            <div class="col l2 m6 s12 offset-l2">
+                <img src="Imagenes/b1.jpg" class="responsive-img">
+                <h3>Apartments</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+            <div class="col l2 m6 s12 offset-l1">
+                <img src="Imagenes/b2.jpg"  class="responsive-img">
+                <h3>Luxury Villas</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+            <div class="col l2 m6 s12 offset-l1">
+                <img src="Imagenes/b3.jpg" class="responsive-img">
+                <h3>Gated Projects</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+            <div class="col l2 m6 s12 offset-l2">
+                <img src="Imagenes/b4.jpg" class="responsive-img">
+                <h3>Apartments</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+            <div class="col l2 m6 s12 offset-l1">
+                <img src="Imagenes/b5.jpg" class="responsive-img">
+                <h3>Luxury Villas</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+            <div class="col l2 m6 s12 offset-l1">
+                <img src="Imagenes/b6.jpg" class="responsive-img">
+                <h3>Gated Projects</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Titulo 2-->
+    <div style="padding-top: 50px; padding-bottom: 100px;">
+        <h2 id="t2">OUR COMPANY</h2>
+        <p style="text-align: center;">Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+            <br>
+            ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.
+        </p>
+    </div>
+
+    
+    <!--Footer-->
+    <footer class="page-footer" style="background-color: #1d1d1d;">
+        <div class="container">
+          <div class="row">
+            <div class="col l2 offset-l1 s12">
+                <h5 >Links</h5>
+                <ul>
+                  <li><strong>HILLTOP inc.</strong></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col l2 offset-l1 s12">
+              <h5 >Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+            <div class="col l2 offset-l1 s12">
+                <h5>Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+              <div class="col l2 offset-l1 s12">
+                <h5>Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Querys-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems,{
+                height: 600
+            });
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>

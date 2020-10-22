@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+p{
+    font-family: 'Crete Round', serif;
+    text-align: left;
+    color: grey;
+}
+
+h5{
+    font-family: 'Ubuntu', sans-serif;
+    color: #2196f3;
+}
+
+#price{
+    font-family: 'Ubuntu', sans-serif;
+    color: #00897b;
+}
+
+#p1{
+    text-align: center;
+}
+
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#c2{
+    padding-top: 7%;
+}
+
+.waves-effect{
+    background-color: white;
+    color: #80cbc4;
+    border-color: #80cbc4;
+}
+
+.waves-effect:hover{
+    background-color: #80cbc4;
+    color: white;
+}

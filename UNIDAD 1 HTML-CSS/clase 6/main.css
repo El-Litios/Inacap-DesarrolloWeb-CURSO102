@@ -1,0 +1,47 @@
+.flex{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.nav-wrapper{
+    padding-left: 10px;
+    background-color: grey;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.transparencia{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    padding: 5px;
+}
+
+p{
+    font-size: large;
+    text-align: justify !important;
+}
+
+.card-panel .pl{
+    border-radius: 6px;
+    margin-top: -250px;
+}
+
+
+.container{
+    display: flex !important;
+}
+
+.sidenav{
+    background-color: grey;
+}
+
+.sidenav a{
+    color: white !important;
+}
+/*
+.nav-wrapper a{
+    color: purple;
+}
+*/

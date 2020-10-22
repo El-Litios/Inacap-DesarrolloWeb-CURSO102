@@ -1,0 +1,52 @@
+.page-footer{
+    background-color: white;
+}
+nav{
+    background-color: white;
+    
+}
+.nav-wrapper{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+a{
+    color: black !important;
+}
+.footer-copyright{
+    color: black !important;
+}
+.btn{
+    background-color: transparent !important;
+}
+body{
+    font-family: 'Lato', sans-serif; 
+    
+    /* line-height: 30px; */
+}
+#footer{
+    margin: 0;
+}
+#links{
+    line-height: 30px;
+}
+.brand-logo{
+    font-size: clamp(10px, 4vw, 30px) !important;
+}
+body{
+    font-size: clamp(2px, 4vw, 15px) !important;
+}
+.caption{
+    background-color: rgba(255, 255, 255, 0.652); 
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    max-width: 350px;
+}
+h3{
+    font-weight: bolder;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+}

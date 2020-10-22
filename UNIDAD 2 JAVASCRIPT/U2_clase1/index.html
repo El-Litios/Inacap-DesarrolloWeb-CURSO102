@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <!-- navbar start -->
+    <div class="narvbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="menu right hide-on-med-and-down">
+                    <li>
+                        <a href="#0">
+                            <span>Menu 1</span>
+                            <span><i class="fab fa-amazon-pay" aria-hidden="true"></i></span>        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#1">
+                            <span>Menu 2</span>
+                            <span><i class="far fa-address-book" aria-hidden="true"></i></span>        
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar ends -->
+    
+    <div class="contacto">
+        <form action="" method="post">
+            <div class="container row">
+                <div class="col s6 offset-s3">
+                    <h3>Formulario de Contacto</h3>
+                    <br>
+                    <div class="input-field">
+                        <i class="material-icons prefix">textsms</i>
+                        <label for="autocompletar_id">Autocompletar</label>
+                        <input type="text" id="autocompletar_id" class="autocomplete validate" required>
+                    </div>
+                </div>
+                
+                <div class="input-field col s6 offset-s3">
+                    <i class="material-icons prefix">textsms</i>
+                    <input id="email" type="email" class="validate" required>
+                    <span class="helper-text" data-error="error" data-success="Correcto">Correo</span>
+                    <label for="email">Email</label>
+                </div>
+                
+                <div class="input-field col s6 offset-s3">
+                    <input id="input-text" type="text" data-length="10" required>
+                    <label for="input_text">Descripcion</label>
+                    <span class="helper-text" data-error="Ha superado la cantidad de caracteres"></span>                    
+                </div>
+            </div>
+            <p class="center"><button class="waves-effect btn valign-wrapper"><i class="material-icons">send</i>Enviar</button></p> 
+        </form>  
+    </div>
+    
+    
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

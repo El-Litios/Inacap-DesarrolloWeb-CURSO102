@@ -1,0 +1,9 @@
+body{
+    background-image: url(Imagenes/Backgorund/bg2.webp);
+}
+
+.div1{
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+}

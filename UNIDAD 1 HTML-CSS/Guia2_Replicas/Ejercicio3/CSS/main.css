@@ -1,0 +1,95 @@
+nav{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+
+li:hover{
+    background-color: grey;
+}
+
+.dropdown-content{
+    top: -64px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.dropdown-content li a{
+    color: white;
+    
+}
+
+.dropdown-content li a:hover{
+    color: grey;
+    background-color: black;
+}
+
+#dropdown1{
+    width: 500px !important;
+}
+
+#dropdown2{
+    width: 120px !important;
+}
+
+#dropdown2 li a{
+    text-align: center;
+}
+
+#dropdown3{
+    width: 120px !important;
+}
+
+#dropdown3 li a{
+    text-align: center;
+}
+
+#dropdown4{
+    width: 120px !important;
+}
+
+#dropdown4 li a{
+    text-align: center;
+}
+
+#dropdown5{
+    width: 120px !important;
+}
+
+#dropdown5 li a{
+    text-align: center;
+}
+
+#dropdown6{
+    width: 700px !important;
+}
+
+#titleElemnts{
+    font-size: medium;
+    text-align: center;
+    color: #fb8c00;
+}
+
+#rowD6 li a{
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: #fb8c00;
+    color: white;
+    border-color: white;
+}
+
+.slides {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+}

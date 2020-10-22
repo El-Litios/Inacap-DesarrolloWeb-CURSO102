@@ -1,0 +1,21 @@
+nav {
+    background-color: white;
+}
+
+.nav-wrapper{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav ul a:hover{
+    color: red !important;
+    background-color: transparent !important;
+}
+
+nav a{
+    color: black !important;
+}
+
+.parallax-container{
+    height: 550px;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ico.ico">
+    <title>Biblioteca de Curicó</title>
+</head>
+<body>
+    <!--navbar-->
+   <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Biblioteca de Curicó</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">search</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#dropdown1" class="dropdown-trigger" data-target='dropdown1'><i class="material-icons right">search</i>Buscar</a></li>
+            </ul>
+        </div>
+    </nav>
+   </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#modal1" class="modal-trigger">por nombre</a></li>
+        <li><a href="#modal2" class="modal-trigger">por autor</a></li>
+        <li><a href="#modal3" class="modal-trigger">por categoría</a></li>
+    </ul>
+    <!--fin navbar-->
+    
+    <!--slider-->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/img1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3 class="black-text">Regala tu libro</h3>
+                    <h5 class="black-text text-lighten-3">Dale una nueva familia a los libros que ya no usas</h5>
+                    <a class="waves-effect waves-light btn"><i class="material-icons right">add</i>ver más</a>
+                </div>
+            </li>
+            <li>
+                <img src="img/img2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3 class="black-text">Tarde de lectura</h3>
+                    <h5 class="black-text text-lighten-3">Ven a disfrutar de libros leídos en vivo</h5>
+                    <a class="waves-effect waves-light btn"><i class="material-icons right">add</i>ver más</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--fin slider-->
+    
+    <!-- dropdonw -->
+    <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#modal1" class="modal-trigger">por nombre</a></li>
+        <li><a href="#modal2" class="modal-trigger">por autor</a></li>
+        <!-- <li class="divider" tabindex="-1"></li> -->
+        <li><a href="#modal3" class="modal-trigger">por categoría</a></li>
+        <!-- <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li> -->
+        </ul>
+        <!-- fin dropdonw -->
+        
+        <!-- modal nombre-->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field">
+                                <input id="title" type="text" class="validate autocompleteNombre" >
+                                <label for="title">Nombre del libro</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect waves-green btn-flat">Buscar</a>
+                <a class="modal-close waves-effect waves-red btn-flat">Cancelar</a>
+            </div>
+        </div>
+        <!-- fin modal nombre-->
+        
+        <!-- modal autor-->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field">
+                                <input id="autor" type="text" class="validate autocompleteAutor" >
+                                <label for="autor">Nombre del autor</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect waves-green btn-flat">Buscar</a>
+                <a class="modal-close waves-effect waves-red btn-flat">Cancelar</a>
+            </div>
+        </div>
+        <!-- fin modal autor-->
+        
+        <!-- modal categoria-->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field">
+                                <input id="categoria" type="text" class="validate autocompleteCategoria" >
+                                <label for="categoria">Nombre de la categoría
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect waves-green btn-flat">Buscar</a>
+                <a class="modal-close waves-effect waves-red btn-flat">Cancelar</a>
+            </div>
+        </div>
+        <!-- fin modal categoria-->
+        
+        <!--footer-->
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row" id="footer">
+                    <div class="col l6 s12">
+                        <div class="col l3">
+                            <img src="img/logo.png" alt="" height="100%" width="100%"> 
+                        </div>
+                        <div class="col l9">
+                            <h5 class="black-text">Biblioteca de curico</h5>
+                            <p class="black-text text-lighten-4">al servicio de la comunidad.</p>
+                        </div>
+                    </div>
+                    <div class="col l4 offset-l2 s12" id="links">
+                        <h5 class="black-text">Links</h5>
+                        <ul>
+                            <li><a class="black-text text-lighten-3 valign-wrapper modal-trigger" href="#modal4"><i class="material-icons">phone</i>Contacto</a></li>
+                            <li><a class="black-text text-lighten-3 valign-wrapper modal-trigger" href="#modal5"><i class="material-icons">location_on</i>Cómo llegar</a></li>
+                            <li><a class="black-text text-lighten-3 valign-wrapper" href="https://web.curico.cl/"><i class="material-icons">home</i>Municipalidad</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2020 Moon
+                        <!-- <a class="black-text text-lighten-4 right" href="#!">More Links</a> -->
+                    </div>
+                </div> 
+            </footer>
+            <!--fin footer-->
+
+        <!-- modal contacto -->
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="col l6 m6 s6">
+                            <p>Fono: 75 2 000000</p>
+                        </div>
+                        <div class="col l6 m6 s6">
+                            <p>e-mail: este.email.no.existe@falso.com</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-close waves-effect waves-red btn-flat">Cerrar</a>
+            </div>
+        </div>
+        <!-- fin modal contacto -->
+
+        <!-- modal direccion -->
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <h5>Peña 498, Curicó, Maule</h5>
+                            <a href="https://goo.gl/maps/ecCnGrj9yxj5sEB3A" class="waves-effect waves-green btn">Ir a google maps</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-close waves-effect waves-red btn-flat">Cerrar</a>
+            </div>
+        </div>
+        <!-- fin modal direccion -->
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="js/main.js"></script>
+        </body>
+        </html>
